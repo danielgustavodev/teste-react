@@ -1,0 +1,18 @@
+.tituloPrincipal{
+    margin: 20px 0px 20px 0px;
+    font-size:30px;    
+    font-weight: 500;
+}
+
+.subTitulo{
+    font-weight: 100;
+}
+
+.alinhamento{
+    display: flex;
+    
+}
+
+.limite{
+    padding: 0px 455px 0px 60px;
+}
