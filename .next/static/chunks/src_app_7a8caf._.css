@@ -1,0 +1,86 @@
+/* [project]/src/app/cards.css [app-client] (css) */
+.card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 15px;
+  width: 35rem;
+  height: 8rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.card-img {
+  font-size: 24px;
+  background: #f7fee7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.card-titulo {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.card-descricao {
+  font-size: 14px;
+  color: #555;
+}
+
+.alinhamento {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+
+/* [project]/src/app/fonts.css [app-client] (css) */
+.tituloPrincipal {
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.subTitulo {
+  font-weight: 100;
+}
+
+.alinhamento {
+  display: flex;
+}
+
+.limite {
+  padding: 0 455px 0 60px;
+}
+
+
+/* [project]/src/app/buttons.css [app-client] (css) */
+.button-black {
+  margin-top: 25px;
+  background: #000;
+  color: #fff;
+  padding: 13px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.button-black .ceta {
+  margin-left: 5px;
+}
+
+.button-gray {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 100;
+  border-radius: 5px;
+}
+
+
+/*# sourceMappingURL=src_app_7a8caf._.css.map*/

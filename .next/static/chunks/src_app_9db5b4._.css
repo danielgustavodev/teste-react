@@ -1,0 +1,61 @@
+/* [project]/src/app/cards.css [app-client] (css) */
+.card {
+  display: flex;
+  background: #f3f4f6;
+  padding: 15px;
+  width: 50rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.card-img {
+  font-size: 24px;
+  background: #d1fae5;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.card-titulo {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-descricao {
+  font-size: 14px;
+  color: #555;
+}
+
+.divCards {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+/* [project]/src/app/buttons.css [app-client] (css) */
+.button-black {
+  background: #000;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.button-black .ceta {
+  margin-left: 5px;
+}
+
+.button-gray {
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+
+/*# sourceMappingURL=src_app_9db5b4._.css.map*/

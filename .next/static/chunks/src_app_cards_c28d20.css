@@ -1,0 +1,35 @@
+/* [project]/src/app/cards.css [app-client] (css) */
+.card {
+  display: flex;
+  background: #f3f4f6;
+  padding: 15px;
+  width: 50rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.card-img {
+  font-size: 24px;
+  background: #d1fae5;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.card-titulo {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-descricao {
+  font-size: 14px;
+  color: #555;
+}
+
+.divCards {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+/*# sourceMappingURL=src_app_cards_c28d20.css.map*/
