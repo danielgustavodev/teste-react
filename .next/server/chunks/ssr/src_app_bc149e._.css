@@ -1,0 +1,48 @@
+/* [project]/src/app/fonts.css [app-client] (css) */
+.tituloPrincipal {
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.subTitulo {
+  font-weight: 100;
+}
+
+.alinhamento {
+  display: flex;
+}
+
+.limite {
+  padding: 0 455px 0 60px;
+}
+
+
+/* [project]/src/app/buttons.css [app-client] (css) */
+.button-black {
+  margin-top: 25px;
+  background: #000;
+  color: #fff;
+  padding: 13px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.button-black .ceta {
+  margin-left: 5px;
+}
+
+.button-gray {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 100;
+  border-radius: 5px;
+}
+
+
+/*# sourceMappingURL=src_app_bc149e._.css.map*/

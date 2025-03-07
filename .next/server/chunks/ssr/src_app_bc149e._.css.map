@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/react/teste-react/src/app/fonts.css"],"sourcesContent":[".tituloPrincipal{\r\n    margin: 20px 0px 20px 0px;\r\n    font-size:30px;    \r\n    font-weight: 500;\r\n}\r\n\r\n.subTitulo{\r\n    font-weight: 100;\r\n}\r\n\r\n.alinhamento{\r\n    display: flex;\r\n    \r\n}\r\n\r\n.limite{\r\n    padding: 0px 455px 0px 60px;\r\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAIA;;;;AAKA"}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["file://C%3A/react/teste-react/src/app/buttons.css"],"sourcesContent":[".button-black {\r\n    margin-top: 25px;\r\n    background: black;\r\n    color: white;\r\n    padding: 13px 15px 13px 15px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    cursor: pointer;\r\n    font-size: 14px;\r\n    display: flex;\r\n    align-items: center;\r\n  }\r\n  \r\n  .button-black .ceta {\r\n    margin-left: 5px;\r\n  }\r\n  .button-gray{\r\n    border: 1px solid #ddd;\r\n    padding: 8px;\r\n    font-size: 12px;\r\n    font-weight: 100;\r\n    border-radius: 5px;\r\n  }"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;AAaE;;;;AAGA"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

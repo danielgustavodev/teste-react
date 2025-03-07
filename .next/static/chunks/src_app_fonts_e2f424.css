@@ -1,0 +1,21 @@
+/* [project]/src/app/fonts.css [app-client] (css) */
+.tituloPrincipal {
+  margin: 20px 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.subTitulo {
+  font-weight: 100;
+}
+
+.alinhamento {
+  display: flex;
+}
+
+.limite {
+  padding: 0 455px 0 60px;
+}
+
+
+/*# sourceMappingURL=src_app_fonts_e2f424.css.map*/
