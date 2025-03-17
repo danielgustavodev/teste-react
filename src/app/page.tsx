@@ -27,22 +27,22 @@ const conteudoCard = [
 
 export default function Home() {
     return (
-        <div className=" h-screen flex justify-center" >
-            <div> 
-                <Button className="bg-white hover:bg-white m-5 h-10 border-2 text-black  p-2">Our Process</Button>
+        <div className=" h-screen flex justify-center">
+            <div className="max-w-xl">
+                <Button className="bg-white hover:bg-white m-5 h-10 border-2 text-black p-2">Our Process</Button>
                 <h1 className="text-3xl m-5">From Idea to Impact</h1>
-                <span className=" whitespace-normal">We follow a streamlined approach to deliver exceptional digital products that exceed expectations.</span><br/><br/>
+                <p className="m-5 max-w-md text-gray-600">We follow a streamlined approach to deliver exceptional digital products that exceed expectations.</p>
                 <Button className="m-5">Learn More ↗</Button>
             </div>
             <div className="">
                 {conteudoCard.map((conteudoCard, index) => (
-                    <Card key={index}  className="flex w-100 h-35 p-5 m-5 shadow-md rounded-md">
+                    <Card key={index}  className="flex border  gap-10 p-5 m-5">
                         <img className='p-5 h-24 shadow-md rounded-md bg-gray-50 justify-center' src={conteudoCard.image}/>
-                        <div className="flex flex-col justify-start  ">  
-                            <CardTitle className="p-5  ">
+                        <div className="flex flex-col gap-4 ">  
+                            <CardTitle>
                                 {conteudoCard.title}
                             </CardTitle>
-                            <CardDescription className=" w-30 break-words">
+                            <CardDescription>
                                 {conteudoCard.description}
                             </CardDescription>
                         </div>
